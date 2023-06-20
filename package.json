@@ -1,0 +1,14 @@
+{
+  "name": "withdrawals",
+  "version": "1.0.0",
+  "main": "events.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.2.0",
+    "ethers": "^6.6.0"
+  }
+}

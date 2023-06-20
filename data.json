@@ -1,0 +1,254 @@
+[
+    {
+        "fromBlock": 18093,
+        "toBlock": 18099,
+        "claimed": "476562500000",
+        "withdrawalsAccumulated": "476562500000",
+        "match": true
+    },
+    {
+        "fromBlock": 18099,
+        "toBlock": 18104,
+        "claimed": "238281250000",
+        "withdrawalsAccumulated": "238281250000",
+        "match": true
+    },
+    {
+        "fromBlock": 18104,
+        "toBlock": 18117,
+        "claimed": "14204531250000",
+        "withdrawalsAccumulated": "14204531250000",
+        "match": true
+    },
+    {
+        "fromBlock": 18117,
+        "toBlock": 18129,
+        "claimed": "13439281250000",
+        "withdrawalsAccumulated": "13439281250000",
+        "match": true
+    },
+    {
+        "fromBlock": 18129,
+        "toBlock": 18178,
+        "claimed": "43086875000000",
+        "withdrawalsAccumulated": "43086875000000",
+        "match": true
+    },
+    {
+        "fromBlock": 18178,
+        "toBlock": 20271,
+        "claimed": "2267624437500000",
+        "withdrawalsAccumulated": "2267719750000000",
+        "match": false
+    },
+    {
+        "fromBlock": 20271,
+        "toBlock": 64827,
+        "claimed": "43210417125000000",
+        "withdrawalsAccumulated": "43240523718750000",
+        "match": false
+    },
+    {
+        "fromBlock": 64827,
+        "toBlock": 64863,
+        "claimed": "36286625000000",
+        "withdrawalsAccumulated": "36286625000000",
+        "match": true
+    },
+    {
+        "fromBlock": 64863,
+        "toBlock": 65368,
+        "claimed": "405587281250000",
+        "withdrawalsAccumulated": "405587281250000",
+        "match": true
+    },
+    {
+        "fromBlock": 65368,
+        "toBlock": 65420,
+        "claimed": "41310812500000",
+        "withdrawalsAccumulated": "41310812500000",
+        "match": true
+    },
+    {
+        "fromBlock": 65420,
+        "toBlock": 65460,
+        "claimed": "40692906250000",
+        "withdrawalsAccumulated": "40692906250000",
+        "match": true
+    },
+    {
+        "fromBlock": 65460,
+        "toBlock": 65533,
+        "claimed": "54749656250000",
+        "withdrawalsAccumulated": "54749656250000",
+        "match": true
+    },
+    {
+        "fromBlock": 65533,
+        "toBlock": 65538,
+        "claimed": "13142031250000",
+        "withdrawalsAccumulated": "13142031250000",
+        "match": true
+    },
+    {
+        "fromBlock": 65538,
+        "toBlock": 65624,
+        "claimed": "68861781250000",
+        "withdrawalsAccumulated": "68861781250000",
+        "match": true
+    },
+    {
+        "fromBlock": 65624,
+        "toBlock": 65635,
+        "claimed": "13169812500000",
+        "withdrawalsAccumulated": "13169812500000",
+        "match": true
+    },
+    {
+        "fromBlock": 65635,
+        "toBlock": 65721,
+        "claimed": "264500187500000",
+        "withdrawalsAccumulated": "264500187500000",
+        "match": true
+    },
+    {
+        "fromBlock": 65721,
+        "toBlock": 65733,
+        "claimed": "13655937500000",
+        "withdrawalsAccumulated": "13655937500000",
+        "match": true
+    },
+    {
+        "fromBlock": 65733,
+        "toBlock": 65744,
+        "claimed": "13672968750000",
+        "withdrawalsAccumulated": "13672968750000",
+        "match": true
+    },
+    {
+        "fromBlock": 65744,
+        "toBlock": 65752,
+        "claimed": "285937500000",
+        "withdrawalsAccumulated": "285937500000",
+        "match": true
+    },
+    {
+        "fromBlock": 65752,
+        "toBlock": 65781,
+        "claimed": "27412031250000",
+        "withdrawalsAccumulated": "27412031250000",
+        "match": true
+    },
+    {
+        "fromBlock": 65781,
+        "toBlock": 65817,
+        "claimed": "26778031250000",
+        "withdrawalsAccumulated": "26778031250000",
+        "match": true
+    },
+    {
+        "fromBlock": 65817,
+        "toBlock": 65936,
+        "claimed": "108755125000000",
+        "withdrawalsAccumulated": "108755125000000",
+        "match": true
+    },
+    {
+        "fromBlock": 65936,
+        "toBlock": 65951,
+        "claimed": "11039687500000",
+        "withdrawalsAccumulated": "11039687500000",
+        "match": true
+    },
+    {
+        "fromBlock": 65951,
+        "toBlock": 65977,
+        "claimed": "16541343750000",
+        "withdrawalsAccumulated": "16541343750000",
+        "match": true
+    },
+    {
+        "fromBlock": 65977,
+        "toBlock": 66015,
+        "claimed": "37137968750000",
+        "withdrawalsAccumulated": "37137968750000",
+        "match": true
+    },
+    {
+        "fromBlock": 66015,
+        "toBlock": 66033,
+        "claimed": "16652968750000",
+        "withdrawalsAccumulated": "16652968750000",
+        "match": true
+    },
+    {
+        "fromBlock": 66033,
+        "toBlock": 66091,
+        "claimed": "41672812500000",
+        "withdrawalsAccumulated": "41672812500000",
+        "match": true
+    },
+    {
+        "fromBlock": 66091,
+        "toBlock": 66185,
+        "claimed": "81817062500000",
+        "withdrawalsAccumulated": "81817062500000",
+        "match": true
+    },
+    {
+        "fromBlock": 66185,
+        "toBlock": 66241,
+        "claimed": "52956437500000",
+        "withdrawalsAccumulated": "52956437500000",
+        "match": true
+    },
+    {
+        "fromBlock": 66241,
+        "toBlock": 66365,
+        "claimed": "97297343750000",
+        "withdrawalsAccumulated": "97297343750000",
+        "match": true
+    },
+    {
+        "fromBlock": 66365,
+        "toBlock": 66834,
+        "claimed": "509268343750000",
+        "withdrawalsAccumulated": "509268343750000",
+        "match": true
+    },
+    {
+        "fromBlock": 66834,
+        "toBlock": 72609,
+        "claimed": "5432735093750000",
+        "withdrawalsAccumulated": "5432925718750000",
+        "match": false
+    },
+    {
+        "fromBlock": 72609,
+        "toBlock": 72619,
+        "claimed": "2988562500000",
+        "withdrawalsAccumulated": "2988562500000",
+        "match": true
+    },
+    {
+        "fromBlock": 72619,
+        "toBlock": 73353,
+        "claimed": "628243281250000",
+        "withdrawalsAccumulated": "628243281250000",
+        "match": true
+    },
+    {
+        "fromBlock": 73353,
+        "toBlock": 81285,
+        "claimed": "6941970843750000",
+        "withdrawalsAccumulated": "6941970843750000",
+        "match": true
+    },
+    {
+        "fromBlock": 81285,
+        "toBlock": 81319,
+        "claimed": "26312187500000",
+        "withdrawalsAccumulated": "26312187500000",
+        "match": true
+    }
+]
