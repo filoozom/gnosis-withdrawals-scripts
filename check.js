@@ -37,6 +37,8 @@ for (const transfer of allTransfers) {
 for (const [address, events] of Object.entries(transfers)) {
   console.log(`Processing address ${address}`);
 
+  events.unshift({ block: 18093 });
+
   let j = 0;
   const details = withdrawals[address.toLowerCase()].details.sort(
     (a, b) => a.block - b.block
