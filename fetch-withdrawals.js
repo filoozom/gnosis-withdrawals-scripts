@@ -22,6 +22,9 @@ const readCache = async () => {
   }
 };
 
+const range = (start, end) =>
+  Array.from({ length: end - start + 1 }, (_, i) => start + i);
+
 const web3 = new Web3(process.env.PROVIDER_URL);
 const cache = await readCache();
 const lastBlock = await web3.eth.getBlockNumber();
@@ -54,12 +57,7 @@ for (let number = cache.lastBlock + 1; number < lastBlock; number += 100) {
   const to = number + 99;
   console.log(`Processing blocks ${number} to ${to}`);
 
-  await Promise.all(
-    Array.from(
-      { length: Math.min(99, lastBlock - number) },
-      (_, i) => number + i
-    ).map(handleBlock)
-  );
+  await Promise.all(range(number, to).map(handleBlock));
 
   cache.lastBlock = to;
   await writeFile("withdrawals.json", stringify(cache));
