@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "withdrawals",
   "version": "1.0.0",
   "main": "events.js",
@@ -9,6 +10,7 @@
   },
   "devDependencies": {
     "dotenv": "^16.2.0",
-    "ethers": "^6.6.0"
+    "ethers": "^6.6.0",
+    "prettier": "^2.8.8"
   }
 }
