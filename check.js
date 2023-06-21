@@ -49,17 +49,12 @@ for (const [address, events] of Object.entries(transfers)) {
       to: events[i + 1].block - 1,
     };
 
-    for (; j < details.length; j++) {
+    for (; j < details.length && details[j].block <= range.to; j++) {
       const detail = details[j];
 
       // Ignore all withdrawals before the first claim
       if (detail.block < range.from) {
         continue;
-      }
-
-      // Stop the loop if the withdrawal happened after the current claim
-      if (detail.block > range.to) {
-        break;
       }
 
       sum += (detail.amount * BigInt(1e9)) / 32n;
@@ -71,7 +66,7 @@ for (const [address, events] of Object.entries(transfers)) {
       console.log(
         `${range.from} - ${range.to}: wrong value: expected ${
           events[i + 1].value
-        }, got ${sum}`
+        }, got ${sum} (${events[i + 1].value - sum})`
       );
     }
   }
